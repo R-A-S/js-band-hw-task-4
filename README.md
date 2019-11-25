@@ -18,16 +18,32 @@ npm install
 yarn
 
 # Run app (run dev server on localhost: 9000):
-npm run dev
-yarn run dev
+npm start
+yarn start
 
 # Build app (create dist folder):
-npm run build:
-yarn run build:
+npm run build
+yarn build
+
+# Run app test:
+npm test
+yarn test
+
+# Run app test in watch mode:
+npm run test:watch
+yarn test:watch
+
+# Run app eslint check:
+npm run lint
+yarn lint
+
+# Git commit with precommit hooks (eslint check & commitizen):
+git commit
 
 ```
-git commit
+
 ---
 
-## Task  
+## Task
+
 ---  
