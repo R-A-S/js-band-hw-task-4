@@ -1,10 +1,7 @@
 import '../styles/styles.scss';
 
-console.log('→ ', 'Hello world!👶');
+import sumFunction from './components/sum';
 
-console.log('→ ', 'Hello world!👶');
-const myArrowFunc = (a, b) => {
-  if (a === undefined) return b;
-  return a;
-};
-myArrowFunc(11);
+// COMMENT
+
+console.log('→ ', 'Hello world!👶', sumFunction(9800, 13));

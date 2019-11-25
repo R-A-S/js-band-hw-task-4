@@ -1,0 +1,32 @@
+{
+  "runner": "jest-runner",
+  "displayName": "test:unit",
+  "rootDir": "../",
+  "verbose": true,
+  "notify": true,
+  "bail": false,
+  "collectCoverage": false,
+  "collectCoverageFrom": [
+    "<rootDir>/src/js/**/*.js"
+  ],
+  "modulePaths": [
+    "<rootDir>/src",
+    "<rootDir>/node_modules"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "css"
+  ],
+  "setupFiles": [
+    "<rootDir>/jest/scripts/setupFiles.js"
+  ],
+  "moduleNameMapper": {
+    "\\.(css|m.css)$": "identity-obj-proxy",
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/jest/scripts/mocks/fileMock.js"
+  },
+  "testURL": "http://localhost/",
+  "transformIgnorePatterns": [
+    "/node_modules/(?!test-component).+\\.js$"
+  ]
+}

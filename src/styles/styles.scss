@@ -1,8 +1,13 @@
+@font-face {
+  font-family: "Roboto Mono";
+  src: url(../assets/fonts/RobotoMono-Regular.ttf);
+}
+
 body {
   background: rgb(37, 37, 37);
   color: rgb(241, 241, 241);
   text-align: center;
   height: 100vh;
   overflow: hidden;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto Mono", monospace, "Segoe UI";
 }
